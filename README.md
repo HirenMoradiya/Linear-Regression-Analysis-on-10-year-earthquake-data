@@ -8,7 +8,7 @@ visualize them and perform linear regression on the data.
 
 - “The number of earthquakes with small magnitudes is higher compared to the number of earthquakes
 with large magnitudes”.
-This is a qualifying expression that we can all agree on even without any seismological knowledge. In
+This is a qualifying expression we can all agree on even without seismological knowledge. In
 order to quantify the seismicity, the Gutenberg-Richter recurrence relationship is defined as follows and
 can be used for any region and time interval where an earthquake occurs:
 log 𝑁 = 𝑎 − 𝑏 𝑀
@@ -19,19 +19,19 @@ You derive a and b by performing a linear regression on your desired real-time d
 
 - To-Do tasks:
 
-1. The first step is to download the real-time data from the proper platform. Most of the countries have
+- 1. The first step is downloading the real-time data from the proper platform. Most of the countries have
 their own earthquake catalogs. We use the earthquake catalog of Germany provided by
 ‘GeoForschungsZentrum (GFZ)’.
 If you open the webpage of GEOFON – GFZ, you can search in the earthquake catalog and get your
 desired data. It is required to customize the following filters:
 Search Criteria: Select any interval you like, with a minimum magnitude of 2.5. It is not
 necessary to insert the specific latitude and longitude ranges. Leave it empty. Your search will be on
-data of the whole world.
+data from the whole world.
 Output Format: Select HTML. The default of 40 for the number of events that have your criteria is
 enough but you are free to increase it to have access to more events.
 
 - 2. After clicking on search, you see a list of earthquakes with your criteria. Select one of them as you
-like. You will see a part of the map where the epicenter of this earthquake is shown by red circles. On
+like. You will see a part of the map where red circles show the epicenter of this earthquake. On
 the bottom of this image, go to Nearby Events and select Text(CSV). You are finished with getting
 your first data set related to all occurred earthquakes near the selected epicenter. Download the data.
 Repeat the process and download two more data sets. Totally, you need to have three different data
@@ -67,18 +67,18 @@ lines with original values in columns and the modified columns.
 
 - 6. Use your originally downloaded data and generate a three-dimensional scatter plot using the
 geographical properties for axes: longitude, latitude, and depth
-• Report the unit of the properties selected for the axes.
-• Show the occurrence of earthquakes at the correct location.
-• The magnitude value and magnitude type of each earthquake should be shown on the curve. Use a
+Report the unit of the properties selected for the axes.
+Show the occurrence of earthquakes at the correct location.
+The magnitude value and magnitude type of each earthquake should be shown on the curve. Use a
 visualization method that better describes these data on your map. (There is no correct or wrong
 solution for it!)
-• Include a legend for the plot. The plot and its elements should be understandable.
+Include a legend for the plot. The plot and its elements should be understandable.
 
 - 7. Extract the values of the ‘MagType’ and ‘Magnitude’ columns. The magnitude of earthquakes can be
 reported in different types. Therefore, you see different notations in the ‘MagType’ column. For example,
 ML is used for Richter.
-• Find the notation with maximum repetition in your data. Report it.
-• Find the corresponding ‘Magnitude’ values to this type and highlight them (in any way that could be
+Find the notation with maximum repetition in your data. Report it.
+Find the corresponding ‘Magnitude’ values to this type and highlight them (in any way that could be
 understandable) on the generated plot in step 6.
 
 - 8. Calculate N as the cumulative number of earthquakes with a magnitude higher-or-equal to M.
@@ -91,8 +91,8 @@ The associated cumulative number of earthquake would be N1 = 4, N2 = 3, N3 = 2, 
 to your data.
 
 - 11. Show the fitted line on the plot of task no.9.
-• Include a legend for scattered data and fitted lines.
-• On the plot, show the equation of the fitted line with the derived values of a and b, representing the
+Include a legend for scattered data and fitted lines.
+On the plot, show the equation of the fitted line with the derived values of a and b, representing the
 Gutenberg-Richter relationship:
 log 𝑁 = 𝑎 − 𝑏 𝑀
 
