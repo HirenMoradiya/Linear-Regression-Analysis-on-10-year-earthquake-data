@@ -50,7 +50,6 @@ changed in the inherited Class.
 
 - 4. The first row of each data set looks like as following. Find the missing values in your downloaded
 data and visualize the missing values.
-
 #EventID|Time|Latitude|Longitude|Depth/km|Author|Catalog|Contributor|ContributorID|MagType|Magnitude|MagAuthor|EventLocat
 ionName|EventType
 
